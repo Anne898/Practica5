@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Practica5
 {
@@ -18,14 +18,14 @@ namespace Practica5
 
     //clase
 
-    string HelloWorld="Hello World!";
-    int charCount = HelloWorld.Length;
+    string helloWorld="Hello World!";
+    int charCount = helloWorld.Length;
     char [] caracteres = new char[charCount];
 
   
-for (int i = 0; i < HelloWorld.Length; i++) {
-    int newIndex = (HelloWorld.Length - 1) - i;
-    caracteres[newIndex] = HelloWorld[i];
+for (int i = 0; i < helloWorld.Length; i++) {
+    int newIndex = (helloWorld.Length - 1) - i;
+    caracteres[newIndex] = helloWorld[i];
 }
 Console.WriteLine(caracteres);
 
@@ -37,4 +37,5 @@ Console.WriteLine(caracteres);
   }
 
    }
+ 
  
